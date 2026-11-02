@@ -1,0 +1,144 @@
+embeddedFonts:
+  - [LiberationSans-Regular.ttf, LiberationSans-Bold.ttf, LiberationSans-Italic.ttf, LiberationSans-BoldItalic.ttf]
+  - [LiberationMono-Regular.ttf, LiberationMono-Bold.ttf, LiberationMono-Italic.ttf, LiberationMono-BoldItalic.ttf]
+fontsAlias:
+  fontSans: LiberationSans-Regular
+  fontSansBold: LiberationSans-Bold
+  fontSansItalic: LiberationSans-Italic
+  fontSansBoldItalic: LiberationSans-BoldItalic
+  fontSerif: LiberationSans-Regular
+  fontSerifBold: LiberationSans-Bold
+  fontSerifItalic: LiberationSans-Italic
+  fontSerifBoldItalic: LiberationSans-BoldItalic
+  fontMono: LiberationMono-Regular
+  fontMonoBold: LiberationMono-Bold
+  fontMonoItalic: LiberationMono-Italic
+  fontMonoBoldItalic: LiberationMono-BoldItalic
+styles:
+  base:
+    fontName: fontSans
+    fontSize: 11.25
+    leading: 13.72
+  normal:
+    parent: base
+  bodytext:
+    parent: normal
+    fontName: LiberationSans-Regular
+    fontSize: 11.25
+    leading: 13.72
+  author:
+    parent: bodytext
+    fontName: LiberationSans-Regular
+    fontSize: 11.25
+    leading: 13.72
+  title:
+    parent: base
+    fontName: LiberationSans-Bold
+    fontSize: 19.25
+    leading: 21.56
+  subtitle:
+    parent: base
+    fontName: LiberationSans-Bold
+    fontSize: 14.25
+    leading: 16.39
+  heading:
+    parent: base
+    fontName: LiberationSans-Bold
+    fontSize: 12.75
+    leading: 14.66
+  heading1:
+    parent: heading
+    fontName: LiberationSans-Bold
+    fontSize: 17.25
+    leading: 19.84
+  heading2:
+    parent: heading
+    fontName: LiberationSans-Bold
+    fontSize: 14.25
+    leading: 16.39
+  heading3:
+    parent: heading
+    fontName: LiberationSans-Bold
+    fontSize: 12.75
+    leading: 14.66
+  heading4:
+    parent: heading
+    fontName: LiberationSans-Bold
+    fontSize: 11.25
+    leading: 13.72
+  heading5:
+    parent: heading4
+  heading6:
+    parent: heading4
+  toc:
+    parent: bodytext
+    fontName: LiberationSans-Regular
+    fontSize: 10.69
+    leading: 13.45
+  toc1:
+    parent: toc
+    fontName: LiberationSans-Bold
+  toc2:
+    parent: toc
+  toc3:
+    parent: toc
+  toc4:
+    parent: toc
+  toc5:
+    parent: toc
+  toc6:
+    parent: toc
+  toc7:
+    parent: toc
+  toc8:
+    parent: toc
+  toc9:
+    parent: toc
+  toc10:
+    parent: toc
+  toc11:
+    parent: toc
+  toc12:
+    parent: toc
+  toc13:
+    parent: toc
+  toc14:
+    parent: toc
+  toc15:
+    parent: toc
+  bullet-list:
+    parent: bodytext
+  item-list:
+    parent: bodytext
+  definition:
+    parent: bodytext
+  lineblock:
+    parent: bodytext
+  blockquote:
+    parent: bodytext
+  table:
+    parent: bodytext
+  table-heading:
+    parent: bodytext
+    fontName: LiberationSans-Bold
+  table-title:
+    parent: bodytext
+    fontName: LiberationSans-Bold
+  sidebar-title:
+    parent: heading3
+  sidebar-subtitle:
+    parent: heading4
+  topic-title:
+    parent: heading3
+  admonition-title:
+    parent: heading4
+  literal:
+    parent: base
+    fontName: LiberationMono-Regular
+    fontSize: 11.25
+    leading: 13.72
+  literal_block:
+    parent: literal
+  code:
+    parent: literal
+    fontName: LiberationMono-Regular
