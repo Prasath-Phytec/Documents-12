@@ -1,0 +1,119 @@
+/* Auto-generated theme overrides */
+/* Ensure image/figure captions are centered (V2) */
+.figure .caption, div.figure p.caption, figure figcaption, div.figure .legend,
+.figure.align-left .caption, .figure.align-right .caption,
+div.figure.align-left p.caption, div.figure.align-right p.caption,
+figure.align-left figcaption, figure.align-right figcaption,
+div.figure.align-left .legend, div.figure.align-right .legend { text-align: center !important; }
+.figure:not(.align-left):not(.align-right) > img, div.figure:not(.align-left):not(.align-right) > a > img { display:block; margin-left:auto; margin-right:auto; }
+.rst-content img:not(.align-left):not(.align-right) { display:block; margin-left:auto; margin-right:auto; }
+.rst-content img:not(.align-left):not(.align-right) + p { text-align:center; }
+/* Table alignment helpers for csv-table (docutils) */
+table.docutils.align-left, .wy-table-responsive table.align-left, div.align-left table, table.align-left { margin-left: 0 !important; margin-right: auto !important; }
+table.docutils.align-center, .wy-table-responsive table.align-center, div.align-center table, table.align-center { margin-left: auto !important; margin-right: auto !important; }
+table.docutils.align-right, .wy-table-responsive table.align-right, div.align-right table, table.align-right { margin-left: auto !important; margin-right: 0 !important; }
+/* RTD responsive wrapper forces width:100%/display:block; override when explicit alignment is set */
+.wy-table-responsive table.align-left, .wy-table-responsive table.align-center, .wy-table-responsive table.align-right { display: table !important; width: auto !important; }
+/* Ensure table caption shows above and centered */
+table.docutils caption, .rst-content table caption { caption-side: top !important; display: table-caption !important; text-align: center !important; font-weight: 600; padding: 4px 0 10px; }
+/* Allow table to use natural width unless widths specified */
+table.docutils { width: auto; border-collapse: collapse; }
+.rst-content table.docutils th, .rst-content table.docutils td { border: 1px solid #dcdcdc; padding: 6px 10px; }
+.rst-content table.docutils thead th { background: #f7f7f7; font-weight: 600; }
+/* PyData/Furo adjustments */
+.bd-content table.docutils, .content table.docutils { border-collapse: collapse; }
+.bd-content table.docutils th, .bd-content table.docutils td, .content table.docutils th, .content table.docutils td { border: 1px solid #dcdcdc; padding: 6px 10px; }
+.bd-content table.docutils thead th, .content table.docutils thead th { background: #f7f7f7; font-weight: 600; }
+/* Multiline project name support */
+.wy-side-nav-search > a, .wy-side-nav-search > div.project, .sidebar-brand, .bd-sidebar .navbar-brand, .md-header__title { white-space: pre-line !important; line-height:1.15; }
+#indices-and-tables, h1#indices-and-tables, h2#indices-and-tables { display:none !important; }
+.rst-content img, .bd-content img, .md-content img { cursor: zoom-in; }
+/* Emphasize sidebar anchors for better visibility (non-invasive when animations enabled) */
+.wy-menu-vertical a, .bd-sidebar nav a, .md-nav__link { font-weight:600 !important; line-height:1.25 !important; }
+.wy-menu-vertical a, .bd-sidebar nav a, .md-nav__link { font-size:15px !important; }
+.wy-menu-vertical li.current > a, .bd-sidebar nav a.current, .md-nav__link--active { font-weight:700 !important; }
+
+/* RTD_FULL_WIDTH_V1 */
+.wy-nav-content { max-width: 100.0% !important; }
+.content, .bd-content, .bd-main .bd-content .bd-article-container, .bd-page-width { max-width: 100.0% !important; }
+.md-grid { max-width: 100.0% !important; }
+
+/* CENTER_IMAGE_CAPTIONS_V2 */
+.figure .caption, div.figure p.caption, figure figcaption, div.figure .legend,
+.figure.align-left .caption, .figure.align-right .caption,
+div.figure.align-left p.caption, div.figure.align-right p.caption,
+figure.align-left figcaption, figure.align-right figcaption,
+div.figure.align-left .legend, div.figure.align-right .legend { text-align: center !important; }
+.figure:not(.align-left):not(.align-right) > img, div.figure:not(.align-left):not(.align-right) > a > img { display:block; margin-left:auto; margin-right:auto; }
+.rst-content img:not(.align-left):not(.align-right) { display:block; margin-left:auto; margin-right:auto; }
+.rst-content img:not(.align-left):not(.align-right) + p { text-align:center; }
+/* Table alignment helpers for csv-table (docutils) */
+table.docutils.align-left, .wy-table-responsive table.align-left, div.align-left table, table.align-left { margin-left: 0 !important; margin-right: auto !important; }
+table.docutils.align-center, .wy-table-responsive table.align-center, div.align-center table, table.align-center { margin-left: auto !important; margin-right: auto !important; }
+table.docutils.align-right, .wy-table-responsive table.align-right, div.align-right table, table.align-right { margin-left: auto !important; margin-right: 0 !important; }
+table.docutils caption, .rst-content table caption { caption-side: top !important; display: table-caption !important; text-align: center !important; font-weight: 600; padding: 4px 0 10px; }
+/* RTD responsive wrapper forces width:100%/display:block; override when explicit alignment is set */
+.wy-table-responsive table.align-left, .wy-table-responsive table.align-center, .wy-table-responsive table.align-right { display: table !important; width: auto !important; }
+table.docutils { width:auto; } /* allow natural width unless user customizes */
+/* Multiline project name support */
+.wy-side-nav-search > a, .wy-side-nav-search > div.project, .sidebar-brand, .bd-sidebar .navbar-brand, .md-header__title { white-space: pre-line !important; line-height:1.15; }
+
+/* SPX_LIST_HEAD */
+.spx-list-head { font-size: 1.06em; font-weight: 600; margin: 6px 0 10px 0; }
+
+/* LINE_BLOCK_HARD_BREAKS_V1 */
+.rst-content .line-block .line, .line-block .line { display: block !important; }
+
+/* SPX_PDF_DOWNLOAD_BUTTON_V1 */
+#spx-pdf-download-btn{position:fixed;right:14px;top:14px;z-index:99999;display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;font:600 13px/1.1 system-ui,Arial,sans-serif;text-decoration:none;color:#fff;background:rgba(0,0,0,.72);border:1px solid rgba(255,255,255,.18);box-shadow:0 2px 14px rgba(0,0,0,.22);}
+#spx-pdf-download-btn:hover{background:rgba(0,0,0,.86);}
+#spx-pdf-download-btn:active{transform:translateY(1px);}
+@media print{#spx-pdf-download-btn{display:none!important;}}
+
+/* ANCHOR_RULE_V1 */
+.rst-content hr.docutils, .wy-nav-content .rst-content hr.docutils, hr.docutils {
+  border: 0; border-top: 2px solid #9aa0a6 !important; margin: 8px 0 16px !important;
+}
+
+/* IMAGE_ALIGN_BLOCK_FLOW_V1 */
+.rst-content .figure.align-right, .rst-content .figure.align-left, .rst-content .figure.align-center,
+.bd-content .figure.align-right, .bd-content .figure.align-left, .bd-content .figure.align-center,
+.md-content .figure.align-right, .md-content .figure.align-left, .md-content .figure.align-center,
+div.figure.align-right, div.figure.align-left, div.figure.align-center {
+  float: none !important;
+  display: block !important;
+  clear: both;
+}
+.rst-content .figure.align-right img, .bd-content .figure.align-right img, .md-content .figure.align-right img,
+.rst-content img.align-right, .bd-content img.align-right, .md-content img.align-right {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+.rst-content .figure.align-left img, .bd-content .figure.align-left img, .md-content .figure.align-left img,
+.rst-content img.align-left, .bd-content img.align-left, .md-content img.align-left {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+.rst-content .figure.align-center img, .bd-content .figure.align-center img, .md-content .figure.align-center img,
+.rst-content img.align-center, .bd-content img.align-center, .md-content img.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rst-content .figure.align-right + *, .rst-content .figure.align-left + *, .rst-content .figure.align-center + *,
+.bd-content .figure.align-right + *, .bd-content .figure.align-left + *, .bd-content .figure.align-center + *,
+.md-content .figure.align-right + *, .md-content .figure.align-left + *, .md-content .figure.align-center + * {
+  clear: both;
+}
+
+/* RTD_FULL_WIDTH_V2 */
+.wy-nav-content-wrap { margin-left: 300px !important; }
+.wy-nav-content { max-width: none !important; width: auto !important; margin: 0 !important; }
+.rst-content, .content, .bd-content, .bd-page-width, .md-grid { max-width: none !important; width: 100% !important; }
+
+/* RTD_FULL_WIDTH_V2 */
+.wy-nav-content-wrap { margin-left: 300px !important; }
+.wy-nav-content { max-width: none !important; width: auto !important; margin: 0 !important; }
+div.body, .rst-content, .content, .bd-content, .bd-page-width, .md-grid { max-width: none !important; width: 100% !important; }
